@@ -75,6 +75,8 @@ pso.selectByValue("RF11117");
 
 driver.findElement(By.xpath("//div[7]//button")).click(); //Filter
 
+driver.findElement(By.xpath("//span//span")).click(); //Download
+
 driver.close();
 
 } 
