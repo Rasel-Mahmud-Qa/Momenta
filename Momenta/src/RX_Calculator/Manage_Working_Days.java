@@ -54,8 +54,7 @@ public class Manage_Working_Days {
 	       } 
 	      
 	   
-	        
-driver.findElement(By.xpath("//li[10]/ul/li[2]/a")).click();
+driver.findElement(By.xpath("//li[10]/ul/li[2]//span")).click();
 
 Select year = new Select(driver.findElement(By.id("year"))); //Select Year
 year.selectByValue("2020");

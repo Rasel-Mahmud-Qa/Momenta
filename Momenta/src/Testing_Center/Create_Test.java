@@ -76,7 +76,7 @@ driver.findElement(By.name("time")).sendKeys("5"); //test time
 driver.findElement(By.name("marks")).sendKeys("50"); //Total mark
 
 driver.findElement(By.id("ques")).sendKeys("Test Question"); //Question
-
+ 
 driver.findElement(By.id("option1")).sendKeys("A"); //Option 1
 
 driver.findElement(By.id("option2")).sendKeys("B"); //Option 2
